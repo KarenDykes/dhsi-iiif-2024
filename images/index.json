@@ -3,12 +3,99 @@
     "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://dnoneill.github.io/dhsi-iiif-2024/index.json",
+  "id": "https://karendykes.github.io/dhsi-iiif-2024/index.json",
   "type": "Manifest",
-  "items": [],
+  "items": [
+    {
+      "id": "https://karendykes.github.io/dhsi-iiif-2024/index.json/canvas/0",
+      "type": "Canvas",
+      "items": [
+        {
+          "id": "https://karendykes.github.io/dhsi-iiif-2024/index.json/canvas/0/annotationpage/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://karendykes.github.io/dhsi-iiif-2024/index.json/canvas/0/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://karendykes.github.io/dhsi-iiif-2024/babies.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "label": {
+                  "@none": [
+                    "DHSI Manifest"
+                  ]
+                },
+                "width": 6510,
+                "height": 4456,
+                "service": [
+                  {
+                    "@id": "https://karendykes.github.io/dhsi-iiif-2024/+tiles",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://karendykes.github.io/dhsi-iiif-2024/index.json/canvas/0"
+            }
+          ]
+        }
+      ],
+      "label": {
+        "@none": [
+          "DHSI Manifest"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "@none": [
+              "title"
+            ]
+          },
+          "value": {
+            "@none": [
+              "Babies love pigeons"
+            ]
+          }
+        }
+      ],
+      "width": 6510,
+      "height": 4456,
+      "thumbnail": [
+        {
+          "id": "https://karendykes.github.io/dhsi-iiif-2024/thumb.jpg",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
   "label": {
     "@none": [
-      "images"
+      "DHSI Manifest"
     ]
-  }
+  },
+  "metadata": [
+    {
+      "label": {
+        "@none": [
+          "title"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Babies love pigeons"
+        ]
+      }
+    }
+  ],
+  "attribution": "someone",
+  "description": "DHSI Demo",
+  "thumbnail": [
+    {
+      "id": "https://karendykes.github.io/dhsi-iiif-2024/thumb.jpg",
+      "type": "Image"
+    }
+  ]
 }
